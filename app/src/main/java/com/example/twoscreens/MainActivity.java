@@ -74,7 +74,7 @@ import static com.example.twoscreens.R.*;
 
 
     public void changeColor(View view) {
-        loops = 10;
+        loops = 40;
         changeColorHelper(30, view);
         Log.d("MainActivity", "X: " + String.valueOf(x));
         Handler handler = new Handler();
@@ -113,7 +113,7 @@ import static com.example.twoscreens.R.*;
                         Log.d("MainActivity", "COLOR: " + String.valueOf((x-1)%7));
                 }
                 }
-            }, 1000);
+            }, 4000);
 
     }
 
